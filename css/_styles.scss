@@ -1,0 +1,92 @@
+.navbar {
+  background: $bg-grey;
+  padding: 8px 65px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hero {
+  background: url("../img/bg.jpg") center no-repeat;
+  background-size: cover;
+  padding: 8rem 400px;
+
+  .call {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    h1 {
+      text-align: center;
+      margin-bottom: 3rem;
+    }
+
+    .row {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+
+      .form-control {
+        width: 100%;
+        margin-right: 15px;
+      }
+    }
+  }
+}
+
+.features {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 150px 0;
+
+  .block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 65px;
+    text-align: center;
+
+    img {
+      width: 120px;
+      height: 120px;
+    }
+
+    h2 {
+      margin: 15px 0;
+    }
+  }
+}
+
+.showcases {
+  .showcase {
+    display: flex;
+
+    .text-block, .illustration {
+      padding: 150px 100px;
+    }
+
+    .text-block {
+      width: 50%;
+    }
+
+    .illustration {
+      width: 50%;
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+
+      &.illustration01 {
+        background-image: url("../img/carousel01.jpg");
+      }
+      &.illustration02 {
+        background-image: url("../img/carousel02.jpg");
+      }
+      &.illustration03 {
+        background-image: url("../img/carousel03.jpg");
+      }
+    }
+  }
+}

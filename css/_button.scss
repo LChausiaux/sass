@@ -1,0 +1,13 @@
+.btn {
+  background: $primary;
+  padding: 10px 12px 9px;
+  color: #FFF;
+  border-radius: $radius;
+  border: none;
+  cursor: pointer;
+
+  &:hover {
+    background: $primary-hover;
+    transition: ease-in .3s;
+  }
+}

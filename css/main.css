@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  color: #FFF;
+  font-size: 2rem;
+}
+
+.btn {
+  background: #0d6efd;
+  padding: 10px 12px 9px;
+  color: #FFF;
+  border-radius: 0.375rem;
+  border: none;
+  cursor: pointer;
+}
+.btn:hover {
+  background: #0b5ed7;
+  transition: ease-in 0.3s;
+}
+
+.form-control {
+  border-radius: 0.375rem;
+  padding: 10px 12px;
+  border: 1px solid #f8f9fa;
+}
+
+.navbar {
+  background: #f8f9fa;
+  padding: 8px 65px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hero {
+  background: url("../img/bg.jpg") center no-repeat;
+  background-size: cover;
+  padding: 8rem 400px;
+}
+.hero .call {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.hero .call h1 {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+.hero .call .row {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.hero .call .row .form-control {
+  width: 100%;
+  margin-right: 15px;
+}
+
+.features {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 150px 0;
+}
+.features .block {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 65px;
+  text-align: center;
+}
+.features .block img {
+  width: 120px;
+  height: 120px;
+}
+.features .block h2 {
+  margin: 15px 0;
+}
+
+.showcases .showcase {
+  display: flex;
+}
+.showcases .showcase .text-block, .showcases .showcase .illustration {
+  padding: 150px 100px;
+}
+.showcases .showcase .text-block {
+  width: 50%;
+}
+.showcases .showcase .illustration {
+  width: 50%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.showcases .showcase .illustration.illustration01 {
+  background-image: url("../img/carousel01.jpg");
+}
+.showcases .showcase .illustration.illustration02 {
+  background-image: url("../img/carousel02.jpg");
+}
+.showcases .showcase .illustration.illustration03 {
+  background-image: url("../img/carousel03.jpg");
+}
+
+/*# sourceMappingURL=main.css.map */
